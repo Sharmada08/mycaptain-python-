@@ -1,0 +1,12 @@
+r=1.1
+a=22/7*r*r
+print("Input the radius of the circle:",r,:The area of the circle with radius",r,"is:",a)
+
+OUTPUT:
+Input the radius of the circle :1.1 The area of the circle with radius 1.1 is :3.8.28571428571434
+
+ filename = input("Input the filename: ")
+Input the filename: abc.py
+f_extns = filename.split(".")
+print("The extension of the file is : "+ repr(f_extns[-1]))
+The extension of the file is : 'python'
